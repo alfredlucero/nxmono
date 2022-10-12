@@ -9,14 +9,14 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
-        ],
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
         "accessToken": "ZTM3MzBiMWMtOWM2NC00NDRhLWI3OGQtYWRlYWVkYTQzMmM5fHJlYWQtd3JpdGU="
       }
+    }
+  },
+  "pluginsConfig": {
+    "@nrwl/js": {
+      "analyzeSourceFiles": true
     }
   }
 }
